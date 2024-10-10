@@ -15,7 +15,7 @@ public class Main {
         Scanner input = new Scanner(path);
 
         String jsonlFormatOne = "{\"messages\": [{\"role\": \"system\", \"content\": \"";
-        String systemContext = "I love AI prompt engeneering! AI prompt engeneering is so fun!"; //You need to change
+        String systemContext = "You are a Digital SAT tutor. The Digital SAT needs more extremley hard practice questions. You will generate such questions based on the user's specifications."; //You need to change
         String systemContextClose = "\"}, ";
 
         String userResponseOpen = "{\"role\": \"user\", \"content\": \"";
